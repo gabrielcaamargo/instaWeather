@@ -17,9 +17,7 @@ export default function App(){
   return(
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <Header
-        toggleTheme={toggleTheme}
-      />
+      <Header toggleTheme={toggleTheme} />
     </ThemeProvider>
   )
 }
