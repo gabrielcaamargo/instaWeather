@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const Container = styled.header`
     color: ${({theme}) => theme.text };
     display: flex;
-    justify-content: space-around;
-    margin: 64px auto;
+    justify-content: space-between;
+    margin: 64px auto 0px;
+    padding: 30px;
     align-items: center;
 
     .checkbox{

@@ -5,7 +5,7 @@ import GlobalStyles from '../../assets/styles/global'
 import darkTheme from '../../assets/themes/darkTheme'
 import lightTheme from '../../assets/themes/lightTheme'
 import Header from '../Header'
-
+import WeatherDisplay from '../WeatherDisplay'
 
 export default function App(){
   const [ theme, setTheme] = useState('dark')
@@ -18,6 +18,7 @@ export default function App(){
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <Header toggleTheme={toggleTheme} />
+      <WeatherDisplay />
     </ThemeProvider>
   )
 }

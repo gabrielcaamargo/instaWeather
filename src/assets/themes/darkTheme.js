@@ -4,4 +4,5 @@ export default {
     main: "#178AAF",
     light: "#00A7E1",
     text: "#FFFFFF",
+    darkText: "#171A21"
 }

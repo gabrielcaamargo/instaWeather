@@ -18,6 +18,10 @@
         "react"
     ],
     "rules": {
-      "react/jsx-indent": true
+      "react/jsx-indent": true,
+      "react/react-in-jsx-scope": true,
+      "react/jsx-filename-extension": [
+        1, {"extensions": [".js", ".jsx"]}
+      ]
     }
 }
