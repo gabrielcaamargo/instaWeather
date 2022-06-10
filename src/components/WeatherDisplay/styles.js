@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WeatherWrapper = styled.div`
   color: ${({theme}) => theme.text };
   background-color: ${({theme}) => theme.main };
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   padding: 24px 18px;
 
   display: flex;

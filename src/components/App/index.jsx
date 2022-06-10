@@ -5,6 +5,7 @@ import GlobalStyles from '../../assets/styles/global'
 import darkTheme from '../../assets/themes/darkTheme'
 import lightTheme from '../../assets/themes/lightTheme'
 import Header from '../Header'
+import SearchLocalInput from '../SearchLocalInput'
 import WeatherDisplay from '../WeatherDisplay'
 
 export default function App(){
@@ -19,6 +20,7 @@ export default function App(){
       <GlobalStyles />
       <Header toggleTheme={toggleTheme} />
       <WeatherDisplay />
+      <SearchLocalInput />
     </ThemeProvider>
   )
 }
